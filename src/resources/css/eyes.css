@@ -1,0 +1,71 @@
+.eyes-container {
+  margin: 0;
+  padding: 0;
+}
+
+.eyes-container h1 {
+  text-align: center;
+  width: 100%;
+  
+  font-size: 10rem;
+  color: #ffcf4a;
+  font-family: 'Chango', cursive;
+}
+
+.eyes-container h3 {
+  text-align: center;
+  width: 100%;
+  
+  color: #ffcf4a;
+  font-family: 'Courgette', cursive
+}
+
+.eyes-container h2 {
+  text-align: center;
+  width: 100%;
+  
+  color: #ffcf4a;
+  font-family: 'Courgette', cursive
+}
+
+.eyes{
+  all: unset;
+  min-height: 200px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  text-align: center;
+}
+.eye{
+  all: unset;
+  width: 240px;
+  height: 120px;
+  background: #fff;
+  display: inline-block;
+  margin: 40px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+}
+
+.ball{
+  all: unset;
+  width: 40px;
+  height: 40px;
+  background: #000;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  border: 15px solid #9fb53f;
+}
+
+@media all and (max-width: 992px) { 
+
+  .eyes{
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
